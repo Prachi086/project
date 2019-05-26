@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Konnect.com</title>
+	<!--mobile apps-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!--mobile apps-->
+	<!--web-fonts-->
+	<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Courgette|Slabo+27px" rel="stylesheet">
+	<!--//web-fonts-->
+	<!--css-->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/signup.css" type="text/css" rel="stylesheet" media="all">
+	<!--css-->
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--bootstrap-->
+	<script  type="text/java">
+		
+	</script>
+	<script type="text/javascript" src="js/validate.js"></script> 
+        <style>
+article{
+height:auto;
+padding-bottom:0%;
+padding-top:4%;
+background-image:url("images/logout.png");
+background-attachment:fixed;
+
+}
+div.pad-top{
+padding-top:3%;
+}
+div.pad-bot{
+padding-bottom:3%;
+}
+.form , .form2{
+background-color:rgba(0, 0, 0, 0.25);
+padding: 40px;
+}
+</style>
+<style>
+		.mono{
+		font-size:20px;
+		font-family: 'Josefin Slab', serif;
+	        color:#00B0FF;
+		padding-top:30px;
+		
+		}
+</style>
+</head>
+<body>
+    <!--header-->
+	<header>
+		<div class="container">
+			<div class='row'>
+			<div class="col-md-3 " >
+			    <p align="center" class="mono">getKonect</p>
+				<!--<img  class="mono img-responsive" src="images/mono.png" width=160px height=80px>-->
+			</div>
+			<div class="col-md-6 op font">
+				<nav>
+					<ul class="nav navbar" style="font-size:18px">								
+								<li><a href="index.jsp#gallery">Search</a></li>
+								<li><a href="feeds.jsp"> Feeds</a></li>
+								<li><a href="">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="but col-md-3 font float-right" style="font-size:18px">
+				<a href="login.jsp">
+				<div class=" col-md-6 button float-right">
+						<p align="center">Log In</p>
+				</div>	
+				</a>
+				<a href="sign.html">
+				<div class="col-md-6 button float-right">
+					<p align="center">Sign Up</p>
+				</div>
+				</a>
+			</div>
+
+			</div>	
+		</div>
+	</header>
+	<!--header-->
+
+<!--form-->
+   <article>
+   <div class='pad-top'></div>
+   <div align="center" class='bgimage'>	
+       <form name="myform" method="post" action="signup">
+		   <div class="form">
+		    <h2 align="left">Sign Up</h2>
+			<hr/>
+			<div>
+                            
+                           <input type="text" name="firstname" onkeyup="validateform()" placeholder="FIRST NAME" class="input" required autofocus>
+			   <input type="text" name="lastname" placeholder="LAST NAME" class="input" required autofocus>
+			   <input type="email" name="email" onkeyup="validateform()"  placeholder="EMAIL ADDRESS" class="input" required autofocus>
+			   <input type="text" name="phone" placeholder="MOBILE NO." class="input" required autofocus>
+			   <input type="text" name="profession" placeholder="SCHOOL/COLLEGE/ORG." class="input" required autofocus>
+			   <input type="password" name="password" placeholder="PASSWORD" class="input" required autofocus>
+			   <input type="password" name="password2" placeholder="RE-ENTER PASSWORD" class="input" required autofocus>                   
+                        </div>
+                <hr/>
+		<div class="form1" >
+                    <div class="row">
+				   <label><h3>Select skills you have</h3></label><br/>
+				   <!--<select multiple>
+					  <option value="dance">Dance</option>
+					  <option value="paint">Paint</option>
+					  <option value="acting">Acting</option>
+					  <option value="fashion">Fashion Design</option>
+					</select>-->
+			   </div>
+			   <div class="row">
+				  <label><h3>Things you have</h3></label>
+				  <textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				<div class="row">
+				  <label><h3>Description about you</h3></label>
+				  <textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+			   <div class="row">
+				   <label><ins></ins></label>
+				   <input type="submit" value="SIGN UP" class="btn" onclick=" return validateform()">
+			   </div>
+                </div>
+			   <!--<input type="button" value="SIGN UP" class="btn" onclick="">	-->
+               </div>		
+       </form>
+
+		   </div>
+	
+        <div class='pad-top'></div>
+	</article>
+<!--form-->
+<!--footer-->
+		<footer >
+			<div class="foot">
+				<p>Posted by: Prachi Barjatiya</p>
+				
+				  <p >Contact information: <a href="mailto:prachibarjatiya1221@gmail.com">
+				  prachibarjatiya1221@gmail.com</a>.</p>
+			</div>
+		</footer>
+<!--footer-->
+</body>
+</html>

@@ -1,0 +1,86 @@
+article{
+    height:450px;
+    background-color: black;
+}
+.profile{
+    margin-top:200px;
+    float:left;
+    background-color: white;
+    height:280px;
+    width:400px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile img{
+    height: 274px;
+    width:100%;
+    position: relative;
+          
+}
+.mid{
+    position: relative;
+}
+.absolute-icon {
+    position: absolute;
+    float: right;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    color:white;
+    
+}
+
+.name{
+    padding-left: 100px;
+    margin-top:300px;
+    padding-left: 50px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+    font-size: 40px;
+    
+}
+.content{
+        margin-top:50px;
+	background-color:white;
+	padding:50px;
+	}
+.media{
+	background-color:#5ce8e0;
+	margin:10px;
+	padding:20px;
+	border-radius: 5px;
+       
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.media-body{
+    padding: 20px;
+}
+.topcontent{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+    padding: 20px;
+}
+.othercontent{
+    text-align: left;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+}
+.value{
+    margin:10px;
+    padding:15px;
+    background-color: white;
+    
+}
+.value p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+}
+.media-left{
+    padding: 5px;
+   
+}

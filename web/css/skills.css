@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 May, 2017, 10:57:40 PM
+    Author     : lenovo
+*/
+.sub{
+    padding-top: 70px;
+    width:100%;
+    padding: 20px;
+    position:absolute;
+    top:150px;
+}
+.subrow{
+    margin: 10px;
+    padding: 20px;
+    
+    
+}
+.subcol{
+    
+    margin: 20px;
+    
+}
+.subinner{
+    z-index: 10;
+    background: rgba(0,0,0,.5);
+    margin-left: 30px;
+    width:100%;
+    padding: 20px;
+    font-size: 30px;
+    color: #00b0ff;
+    padding: 20px;
+    font-family: 'Bad Script', cursive;
+    font-weight: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input{
+    width:30px;
+    height:30px;
+    
+}

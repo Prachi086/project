@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 May, 2017, 10:40:19 PM
+    Author     : lenovo
+*/
+.box{
+   
+}
+div.photo{
+    background-color: #333;
+    width: 400px;
+    height: 300px;
+    background: rgba(0,0,0,.5);
+}
+div.photo img{
+    background: rgba(0,0,0,.5);
+}
+.checkboxes{
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: rgba(0,0,0,.65);
+    width: 100%;
+    text-align:left;
+    font-size:26px;
+    color: white;
+   /* font-family: 'Josefin Slab', serif;*/
+    font-family: 'Bad Script', cursive;
+}
+.submit{
+    color:black;padding:10px;width:200px;margin:10px;width:150px;height: 70px;font-family: 'Bad Script', cursive;
+    font-size: 25px;
+}
+.input{
+    width: 20px;
+    height:20px;
+}
+.sub{
+    padding: 2px;
+}

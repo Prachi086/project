@@ -1,0 +1,411 @@
+/*general*/
+body{
+	margin:0;
+	font-family: 'Josefin Slab', serif;
+	/*font-family:'Roboto Condensed', sans-serif;*/
+	background-color:black;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Josefin Slab', serif;
+	/*font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Overlock', cursive;*/
+}
+p{
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+.font{
+	font-family: 'Josefin Slab', serif;
+	font-size:16px;
+	font-color:black;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+/*general*/
+/*@media only screen and (max-width: 360px) {
+  nav{
+	display:none;  
+  }  
+  .mono{
+	  width:100px;
+	  height:40px;
+  }
+  .button{
+	  width:60px;
+	  height:30px;
+  }
+}*/
+/*header*/
+header{
+	padding-top:8px;
+	height:90px;
+	background:white;
+	position:fixed;
+	width:100%;
+	color:black;
+	z-index: 999; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mono{
+	padding:10px;
+}
+ul.nav.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding:10px;
+    overflow: hidden;
+	padding-left:40px;
+}
+ul.nav.navbar li {
+    float: left;
+	color:black;
+	width:130px;
+}
+
+ul.nav.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
+	hover-decoration:none;
+	text-decoration: none;
+	color:black;
+}
+
+ul.nav.navbar li a:hover,ul.nav.navbar li.a.active,ul.nav.navbar li a:focus {
+    text-decoration:none;
+	background-color:white;
+	color:#00B0FF;
+}
+.but{
+	padding:10px;
+}
+.button{
+	float:left;
+	width:120px;
+	height:60px;
+	color:black;
+	padding: 20px 20px;
+	
+}
+
+.button:hover{
+	/*background-color:#5FD9F4;*/
+	background-color:#00B0FF;
+	color:white;
+}
+.icons{
+    padding-right:150px;
+    padding:20px;
+}
+.icon{
+    color:#00B0FF;
+    float:right;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+@media (max-width: 1000px) {
+  header .container {
+    width: 100%;
+	display:inline;
+  }
+  header .mono {
+    padding-left: 3%;
+	text-align:left;
+  }
+  nav {
+    width: 100%;
+    top: 60px;
+  }
+ 
+ /* nav:before {
+    content: '\2630';
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: -50px;
+    line-height: 40px;
+    font-size: 1.4em;
+    cursor: pointer;
+  }*/
+  nav ul.nav.navbar {
+	  float:center;
+    background: #222;
+    width: 100%;
+    margin: 0px;
+  }
+  nav ul.nav.navbar li {
+    float: left;
+  }
+  nav ul.nav.navbar li a {
+    padding: 10px 3%;
+    line-height: 20px;
+    border-top: 1px solid #333;
+  }
+  header .but{
+	  display:none;
+  }
+}
+
+/*header*/
+
+/*banner*/
+
+/*banner*/
+/*grid*/
+
+.new_400{
+				height:300px;
+				background-color:white;
+			
+			}
+			.new_300{
+				height:150px;
+				background-color:white;
+			
+			}
+                        .new_200{
+                                width: 220px;
+                                float: left;
+                                height: 120px;
+                                padding-top: 30px;
+                                padding-left: 40px;
+                               
+                                background:rgba(255,255,255,0.5);
+			
+			}
+			.new_500{
+				height:450px;
+				background-color:white;
+		
+			}
+                        
+		
+			.clear-fix{
+				clear:both;
+			}
+			.matter{
+					font-family: 'Josefin Slab', serif;
+					font-size:27px;
+					text-align:center;
+				background-color:#00B0FF;
+				color:white;
+				}
+                                .matter2{
+                                        font-family: 'Bad Script', cursive;
+				
+					font-size:50px;
+					text-align:center;
+				color:#00B0FF;
+				
+				}
+			.matter > div > p{
+				    text-align: justify;
+					padding: 65px;
+					padding-top:100px;
+				
+				}
+                                .font1{
+	
+        font-family: 'Bad Script', cursive;
+	font-size:30px;
+	
+}
+                
+/*grid*/
+/*about*/
+.about{
+	padding:80px;
+	background-color:white;
+	height:400px;
+	width:100%;
+	font-size:25px;
+	font-family: 'Josefin Slab', serif;
+}
+
+.header-right {
+	font-family: 'Josefin Slab', serif;
+	color:#003058;
+}
+
+.header-left {
+    
+}
+.signbutton{
+
+	width:140px;
+	height:70px;
+	padding: 20px;
+	background-color:#F04C40;
+	color:white;
+	text-align:center;
+	font-family: 'Josefin Slab', serif;
+}
+.signbutton:hover{
+	/*background-color:#5FD9F4;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+/*about*/
+
+/*gallery*/
+.gallery{
+	padding:50px;
+	background-color:white;
+	padding-bottom:10px;
+}
+.gallery-heading{
+	padding-top:10px;
+	padding:20px;
+	font-family: 'Josefin Slab', serif;
+	color:black;
+}
+div.photo{
+  /*width:400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  */
+  text-align: center;
+  float:left;
+  position:relative;
+  
+}
+.absolute-text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 52px;
+	color:white;
+	font-family: 'Bad Script', cursive;
+}
+div.row{
+	padding-bottom:30px;
+}
+div.photo img{
+	width:400px;
+	height:300px;
+	padding:20px;
+}
+div.photo img:hover{
+	opacity:rgba(0,0,0,.50);
+}
+.center{
+	position:absolute; 
+	font-size:60px;
+	bottom:0;
+	font-family: 'Bad Script', cursive;
+	/*font-family: 'Tangerine', cursive;*/
+	width:100%; 
+	text-align:center;
+	color:white;
+	}
+.absolute-text a{
+	font-size:16px; 
+	color:#b92b27;}
+.absolute-text2{
+				position: absolute;
+				width: 100%;
+				top: 60%;
+                                float:right;
+				padding-left: 50px;
+				
+				font-size:30px;
+				color:black;
+				font-family: 'Bad Script', cursive;
+			}
+			
+
+/*gallery*/
+
+/*footer*/
+footer{
+	height:200px;
+	background-color:#00B0FF;
+	color:white;
+	padding-top:20px;
+}
+.foot{
+	padding-left:50px;
+	padding-top:50px;
+	font-size:16px;
+	font-family: 'Josefin Slab', serif;
+}
+/*footer*/
+
+.tool {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Tooltip text */
+.tool .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tool .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tool:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+/*notification*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    top:60px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 May, 2017, 2:26:15 PM
+    Author     : lenovo
+*/
+.heading{
+    font-size: 50px;
+    font-family: 'Bad Script', cursive;
+     color:#00B0FF;
+     padding: 50px;
+     height: 150px;
+     text-align: center;
+}
+.letter{
+    height: 300px;
+    width:100%;
+    background-color: black;
+}
